@@ -72,6 +72,13 @@
   background-size: cover;
   background-repeat: no-repeat;
 }
+
+.heroSection3{
+  background: url("./asset/logo.png");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
 .leftHero{
     display: flex;
     flex-direction: column;
@@ -125,7 +132,7 @@
 }
 
 .pre_heading{
-  font-size: 1.25rem;
+  font-size: 28px;
   line-height: 1.75rem;
   font-weight: 600;
   /* color: rgb(102 116 204); */
@@ -439,7 +446,7 @@
 
   /* whyJadava  */
   .pre_heading{
-    font-size: 1rem;
+    font-size: 1.2rem;
     line-height: 1rem;
   }
   .section_heading{
@@ -627,7 +634,7 @@
 
    /* whyJadava  */
    .pre_heading{
-    font-size: 1rem;
+    font-size: 1.2rem;
     line-height: 1rem;
     margin-bottom: 8px;
   }

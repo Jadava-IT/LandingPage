@@ -6,10 +6,11 @@ export const PackageData=[
         content:[
             "Tranining",
             "Duration : 15 days",
-            "Engage in mock interviews for realism",
-            "Refine body language and communication tone",
-            "Develop clear and concise expression",
-            "Attain basic proficiency in 4 languages"
+            "Spoken English Classes.",
+            "Engage in mock interviews for realism.",
+            "Refine body language and communication tone.",
+            "Develop clear and concise expression.",
+            "Attain basic proficiency in 4 languages."
         ],
         trackEventName:"Essential"
     },
@@ -22,6 +23,8 @@ export const PackageData=[
             "Duration : 30 days",
             "Mock Interview & Question Practice.",
             "Spoken English Classes.",
+            "Computer Class.",
+            "CRM Training."
         ],
         trackEventName:"Prime",
     },

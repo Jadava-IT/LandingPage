@@ -21,6 +21,24 @@ function ServicePage() {
         </div>
 
         <div className="our_mission service_desc">
+          <h1>Training Program</h1>
+          <p className="mission_desc service_desc_p">
+            Our company offers a comprehensive training program, covering
+            structured interview preparation, confidence-building, and spoken
+            English mastery for effective job placement. Participants engage in
+            sessions focusing on mastering common interview question formats,
+            refining responses, and honing body language through realistic mock
+            interviews. Emphasizing spoken English proficiency, including
+            pronunciation and fluency, our training also includes basic
+            conversational skills in four languages, enhancing adaptability for
+            global job markets. With a unique 6-month job assurance program,
+            individuals pay a one-time fee for training and receive ongoing
+            support in securing new employment opportunities post-training.
+            There will be 3 rounds of interest in our company for your practice and to next process.
+          </p>
+        </div>
+
+        <div className="our_mission service_desc">
           <h1>C-Suite/ C-Level Executive Search</h1>
           <p className="mission_desc service_desc_p">
             The most powerful and influential members of the organization who
@@ -63,23 +81,6 @@ function ServicePage() {
             Jadav Foundation is associated with some of the best educational
             institutions PAN India that give us access to some of the most
             talented minds who fit the profile of your organisation.
-          </p>
-        </div>
-
-        <div className="our_mission service_desc">
-          <h1>Training Program</h1>
-          <p className="mission_desc service_desc_p">
-            Our company offers a comprehensive training program, covering
-            structured interview preparation, confidence-building, and spoken
-            English mastery for effective job placement. Participants engage in
-            sessions focusing on mastering common interview question formats,
-            refining responses, and honing body language through realistic mock
-            interviews. Emphasizing spoken English proficiency, including
-            pronunciation and fluency, our training also includes basic
-            conversational skills in four languages, enhancing adaptability for
-            global job markets. With a unique 6-month job assurance program,
-            individuals pay a one-time fee for training and receive ongoing
-            support in securing new employment opportunities post-training.
           </p>
         </div>
       </section>

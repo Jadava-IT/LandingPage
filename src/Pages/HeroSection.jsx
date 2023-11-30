@@ -20,10 +20,14 @@ const HeroSection = () => {
       <section className="heroSection heroSection2 relative w-full md:h-[400px] h-[400px]">
         <div className="leftHero lg:w-[1120px] md:w-[690px] w-full">
           <h1 className="firstLine text-start">
-          We are the first to provide training for NON-IT courses in Karnataka.
+          We are the first who gives training for NON-IT courses in Karnataka
           </h1>
           <h1 className="secondLine text-start">The Ultimate Guide To Ace Interviews</h1>
         </div>
+      </section>
+
+      <section className="heroSection heroSection3 relative w-full md:h-[400px] h-[400px]">
+        <div className="absolute  w-full h-full"></div>
       </section>
     </Carousel>
   );
