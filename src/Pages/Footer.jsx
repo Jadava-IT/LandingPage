@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import FooterLogo from "../asset/footerlogo.png";
+// import FooterLogo from "../asset/footerlogo.png";
 
 const SocialMediadata = [
   {

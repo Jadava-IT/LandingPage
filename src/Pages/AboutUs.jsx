@@ -1,6 +1,5 @@
 import React from "react";
 import img2 from "../asset/aboutImg2.jpg";
-import ContactUsForm from "../Reusable/ContactUsForm";
 import Footer from "./Footer";
 import NavBar from "./NavBar";
 

@@ -1,5 +1,4 @@
 import React from "react";
-import ServiceBanner from "../asset/service banner.jpg";
 import NavBar from "./NavBar";
 import Footer from "./Footer";
 

@@ -2,8 +2,6 @@ import { Modal, TextField } from "@mui/material";
 import React, { useState } from "react";
 import { validationSchema } from "../Schema/Validation";
 import { useFormik } from "formik";
-import { ToastContainer, toast } from "react-toastify";
-import "react-toastify/dist/ReactToastify.css";
 import LoaderComponent from "./LoaderComponent";
 
 
@@ -203,7 +201,7 @@ function ContactUsForm() {
             type="submit"
             className=" submitForm focus:outline-none focus:ring-2 focus:ring-brand focus:ring-offset-2 
       cursor-pointer
-      rounded-md bg-brand text-[#fff] border-brand font-rubik xl:text-lg text-sm border px-6 h-12 py-2 flex items-center gap-3 xl:text-xl lg:h-[4rem]"
+      rounded-md bg-brand text-[#fff] border-brand font-rubik  text-sm border px-6 h-12 py-2 flex items-center gap-3 xl:text-xl lg:h-[4rem]"
           >
             Submit
             <svg

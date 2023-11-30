@@ -1,5 +1,4 @@
 import React from "react";
-import CourseCard from "../Reusable/CourseCard";
 import NavBar from "./NavBar";
 import Footer from "./Footer";
 import MultipleSelectPlaceholder from "../Reusable/MultipleSelectPlaceholder";
