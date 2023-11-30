@@ -2,19 +2,7 @@ import React from "react";
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 import { Carousel } from "react-responsive-carousel";
 
-const Images = ["https://d2aknbw0t7002k.cloudfront.net/buildhome/p1.webp"];
 
-const settings = {
-  dots: false,
-  lazyLoad: true,
-  draggable: true,
-  arrows: false,
-  slidesToShow: 1,
-  slidesToScroll: 1,
-  speed: 700,
-  autoplay: true,
-  autoplaySpeed: 4000,
-};
 
 const HeroSection = () => {
   return (

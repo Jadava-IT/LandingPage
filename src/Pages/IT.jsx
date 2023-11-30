@@ -2,7 +2,6 @@ import React from "react";
 import NavBar from "./NavBar";
 import Footer from "./Footer";
 import MultipleSelectPlaceholder from "../Reusable/MultipleSelectPlaceholder";
-import PackageSection from "./PackageSection";
 
 function IT() {
   return (

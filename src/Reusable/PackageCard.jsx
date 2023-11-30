@@ -16,7 +16,7 @@ const PackageCard = ({ data,index }) => {
           <span className="price">
             {data?.amount}
           </span>
-         <a href="https://docs.google.com/forms/d/1hCQ7Jq3EvtKLPCexKfWoCTQAFsGiK1kYE-77Zwtk9lU/edit" target="_blank">
+         <a href="https://docs.google.com/forms/d/1hCQ7Jq3EvtKLPCexKfWoCTQAFsGiK1kYE-77Zwtk9lU/edit" >
          <button
            
            >
