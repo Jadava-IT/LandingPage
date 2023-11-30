@@ -23,7 +23,7 @@ export const PackageData=[
             "Duration : 30 days",
             "Mock Interview & Question Practice.",
             "Spoken English Classes.",
-            "Computer Class.",
+            "Computer Class (work related).",
             "CRM Training."
         ],
         trackEventName:"Prime",

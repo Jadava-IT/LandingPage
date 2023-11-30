@@ -11,12 +11,12 @@ export default function Service() {
           class="-pt-1 mx-auto h-[70vw] w-[70vw] place-self-center rounded-full object-cover object-top md:h-[400px] sm:w-full sm:rounded-3xl md:w-[660px] lg:h-[344px]"
         />
         <div class="flex flex-col items-center justify-center gap-4 px-4 py-10 md:items-start ">
-          <p class="section_heading text-headText">Top training and Job consultancy and employment agencies in Karnataka, India</p>
+          <p class="section_heading text-headText text-center md:text-start">Top training and Job consultancy and employment agencies in Karnataka, India</p>
           {/* <p class="section_subheading text-center md:text-start text-subText ">
             Hello! Welcome to <span class="font-medium">Jadav Foundation</span>! Really
             happy to see you here.
           </p> */}
-          <p class="content_text text-justify md:text-start text-grey100">
+          <p class="content_text text-center md:text-start text-grey100">
           At Jadav Foundation, we strive to enable organisations to be industry leaders by delivering high-impact end-to-end permanant staffing solutions to build a competent workforce.
           </p>
         </div>

@@ -27,23 +27,24 @@ const AboutUs = () => {
           class="-pt-1 mx-auto h-[70vw] w-[70vw] place-self-center rounded-full object-cover object-top md:h-[400px] sm:w-full sm:rounded-3xl md:w-[660px] lg:h-[444px]"
         />
         <div class="flex flex-col items-center justify-center gap-4 px-4 py-10 md:items-start ">
-          <p class="section_heading text-headText text-center">
-            Job Consultancy and Employment Agencies
+          <p class="section_heading text-headText text-start">
+            Top training and Job consultancy and employment agencies in
+            Karnataka, India
           </p>
           <p class="section_subheading text-center md:text-start text-subText ">
             Hello! Welcome to <span class="font-medium">Jadav Foundation</span>!
             Really happy to see you here.
           </p>
-          <p class="content_text text-justify md:text-start text-grey100">
+          <p class="content_text text-center md:text-start text-grey100">
             Thinking of taking a step towards a mentorship programme? It
             definitely seems a bit daunting at first. It is never easy to ask
             for someone's counsel or guidance be it for studies or just in
             general. So, at <span class="font-medium">Jadav Foundation</span> we
             are here to provide all the necessary counsel you might need for{" "}
             <span class="font-medium">
-              placement preparations, interview experiences, programming
+              placement preparations, interview experiences, programming. 
             </span>
-            , et cetera! For any additional questions, feel free to email us at
+            For any additional questions, feel free to email us at
             jadav.foundation2800@gmail.com
           </p>
         </div>

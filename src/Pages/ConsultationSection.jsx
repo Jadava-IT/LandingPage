@@ -1,6 +1,6 @@
 import React from "react";
 import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
-import { Link } from "react-router-dom";
+import { Link} from "react-router-dom";
 
 const ConsultationSection = () => {
 
@@ -57,12 +57,14 @@ const ConsultationSection = () => {
             <p className="ConsultationHeading">
               Are You Looking For a Job?
             </p>
+            <Link to="/contact">
             <button
               className="ConsultationButton"
             >
               Apply Now
               <ArrowForwardIcon className="md:hidden block" style={{ width: "16px", height: "16px" }} />
             </button>
+            </Link>
           </div>
           {/* {
             <div>
