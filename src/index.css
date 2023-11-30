@@ -1,13 +1,68 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+.PackagesTopContainer ::-webkit-scrollbar {
+    width: 10px;
+    height: 5px
+}
+.PackagesTopContainer ::-webkit-scrollbar-button {
+    background: #ccc
+}
+.PackagesTopContainer ::-webkit-scrollbar-track-piece {
+    background: #888
+}
+.PackagesTopContainer ::-webkit-scrollbar-thumb {
+    background: #eee
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.PackagesTopContainer .slick-track{
+    display: flex;
+    gap: 24px;
+    width: 1120px !important;
 }
+.carousel-status{
+    display: none !important;
+}
+
+/* .heroSection .slick-track{
+    display: flex;
+    width: 100% !important;
+} */
+
+/* .heroSection .slick-slider{
+    height: 100% !important;
+}
+.heroSection .slick-list{
+    height: 100% !important;
+}
+.heroSection .slick-track{
+    width: 100% !important;
+} */
+
+.errorMess {
+    color: #f99393;
+    font-family: "Source Sans 3";
+    font-size: 12px;
+    margin-top: 8px;
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  }
+
+  .loader {
+    border: 16px solid #f3f3f3; /* Light grey */
+    border-top: 16px solid #3498db; /* Blue */
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    animation: spin 2s linear infinite;
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }

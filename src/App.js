@@ -1,25 +1,48 @@
-import logo from './logo.svg';
 import './App.css';
+import AboutUs from './Pages/AboutUs';
+import ContactUs from './Pages/ContactUs';
+import NonITCourse from './Pages/NonIt';
+// import GetQuotationPage from './Pages/GetQuotationPage';
+import HomeComponent from './components/HomeComponent';
+import { createBrowserRouter } from 'react-router-dom';
+import IT from './Pages/IT';
+import ServicePage from './Pages/ServicePage';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+  <>  
+    <HomeComponent/>
+  </>
   );
 }
 
-export default App;
+
+
+
+export const Approuter = createBrowserRouter([
+  {
+    path:"/",
+    element:<App/>
+  },
+  {
+    path:"/contact",
+    element:<ContactUs  />
+  },
+  {
+    path:"/about",
+    element:< AboutUs/>
+  },
+  {
+    path:"/course",
+    element:< NonITCourse/>
+  },
+  {
+    path:"/IT",
+    element:< IT/>
+  },
+  {
+    path:"/service",
+    element:< ServicePage/>
+  },
+
+])

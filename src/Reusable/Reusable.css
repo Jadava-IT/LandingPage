@@ -1,0 +1,129 @@
+
+
+/* newPackageSectioncard  */
+.newPackageCard {
+  display: flex;
+  padding: 28px 0px;
+  flex-direction: column;
+  align-items: center;
+  /* gap: 32px; */
+  border-radius: 10px;
+  background: #000;
+}
+.premiumCard{
+  background: linear-gradient(90deg, #FED866 0.27%, #F8BB26 99.74%);
+}
+
+.topContentHeader h1 {
+  color: #fff;
+  text-align: center;
+  font-family: "Kanit";
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-transform: uppercase;
+}
+.topContentHeader span {
+  color: #fff;
+  font-family: "Source Sans 3";
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.pricesqft .price {
+  color: #fff;
+  text-align: center;
+  font-family: "Kanit";
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.pricesqft .sqft {
+  color: #fff;
+  font-family: "Kanit";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.pricesqft button {
+  display: flex;
+  width: 156px;
+  padding: 12.354px 17.189px;
+  justify-content: center;
+  align-items: center;
+  gap: 6.446px;
+  border-radius: 5.371px;
+  background: #fff;
+  box-shadow: 0px 2.68574px 8.05722px 0px rgba(37, 44, 97, 0.15),
+    0px 1.0743px 2.14859px 0px rgba(136, 144, 194, 0.2);
+}
+
+.pricesqft button span {
+  color: #000;
+  font-family: "Source Sans 3";
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 100%;
+}
+.divider {
+  background: #907b7b;
+  height: 0.8px;
+}
+
+.bottomContent h3 {
+  color: #fff;
+  font-family: "Source Sans 3";
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.bottomContent svg{
+  flex-shrink: 0;
+}
+
+.premiumCard h1, .premiumCard h3{
+  color: #000 !important;
+}
+.premiumCard button{
+  background: #000;
+}
+.premiumCard svg>path{
+  stroke: black;
+}
+.premiumCard span{
+  color: #000 ;
+}
+.premiumCard .pricesqft .price{
+  color: #000;
+}
+.premiumCard .pricesqft .sqft{
+  color: #000;
+}
+.premiumCard button>span{
+  color: white;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .AccordionDetailsPackges {
+    background-color: #f1f1f1 !important;
+  }
+  .AccordionSummaryPackages {
+    background-color: #f1f1f1 !important;
+  }
+  .bullet {
+    fill: #fdc315 !important;
+  }
+  /* .AllPackagebox1024lp{
+    margin-left: calc((100vw - 648px) / 2);
+  } */
+}
+

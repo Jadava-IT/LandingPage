@@ -1,38 +1,737 @@
-.App {
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700;800&family=Source+Sans+3:wght@400;500;600;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Inter', sans-serif;
+  font-family: 'Source Sans 3', sans-serif;
+}
+
+.NavBarTopContainer {
+  background: var(--Background, #fff);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.1);
+}
+
+.NavBarSubContainer {
+  height: 120px;
+  backdrop-filter: blur(1.9999998807907104px);
+  max-width: 1120px;
+  margin: 0px auto;
+}
+
+.Navbarlogo {
+  width: 120px;
+  /* height: 42px; */
+}
+
+.Navbarul {
+  display: flex;
+  gap: 36px;
+}
+
+.Navbarlist {
+  font-size: 25px;
+  color: rgb(54 58 69);
+  font-weight: 600;
+  font-family: var(--Font2, GoodSans);
+}
+
+.NavBarContactbtn {
+  padding: 10px 20px;
+  border-radius: 49px;
+  border: 1px solid var(--Main, #0f0c0c);
+}
+
+.NavBarContactbtn:hover {
+  background: var(--Main, #0f0c0c);
+  color: var(--background, #fff);
+  transition: all 0.3s ease-in-out 0s;
+}
+
+.NavbarContactBtnText {
+  text-align: center;
+  font-family: var(--Font2, GoodSans);
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+/* Hero Section  */
+.heroSection{
+  background: url("https://persismonalisagroup.com/wp-content/uploads/2023/06/slider-bg-4.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.heroSection2{
+  background: url("https://persismonalisagroup.com/wp-content/uploads/2023/06/slider-bg-5.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.leftHero{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin: 0px auto;
+    padding-top: 52px;
+
+}
+
+.firstLine{
+    color: #fff;
+    font-size: 48px;
+    font-weight: 700;
+}
+.secondLine{
+    color: #fff;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.heroButtons{
+    display: flex;
+    gap: 8px;
+    margin-top: 16px;
+}
+.heroButtons button{
+    padding: 1rem 2.5rem;
+    font-size: 18px;
+    border-radius: 8px;
+}
+.heroSectionleftButton{
+    background-color: #000;
+    color: white;
+}
+.heroSectionrightButton{
+    border: 1px solid #000;
+}
+.rightHero img{
+    width: 550px;
+    height: 550px;
+}
+
+
+/* Hero Section End  */
+
+/* Why Jadava  */
+
+.whyjadavTopContainer{
+  max-width: 1120px;
+  margin: 0 auto;
+}
+
+.pre_heading{
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+  font-weight: 600;
+  /* color: rgb(102 116 204); */
+  color: rgb(188 175 96);
+  font-weight: 700;
+}
+.section_heading{
+  color: rgb(1 18 41);
+  font-size: 42px;
+  font-weight: 700;
+}
+.card_icon_circle{
+  border-radius: 50%;
+}
+.cardSubText{
+  color: rgb(119 124 133);
+}
+.card{
+  background-color: #fff;
+  margin: 6px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.1);
+}
+
+/* Why Jadav end  */
+
+
+/* consultation  */
+.ConsultationHeading {
+  color: #fff;
+  font-family: "Kanit";
+  font-size: 40px;
+  font-weight: 500;
+  width: 45rem;
+}
+
+.ConsultationButton {
+  color: #000;
+  font-size: 16px;
+  font-weight: 600;
+  height: 42px;
+  border-radius: 4px;
+  background: #fff;
+  width: 12.6rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 4px;
+}
+/* consultation end  */
+
+/* MeetOurTeam  */
+.meetTeamContainer{
+  margin: 18px auto;
+}
+.card1{
+  background: url("./asset/Founder.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 10px;
+}
+.card2{
+  background: url("./asset/management.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 10px;
+}
+
+/* MeetOurTeam End  */
+
+/* Footer  */
+
+.FooterTopContainer {
+  /* background-color: rgb(102 116 204); */
+  background-color: #000;
+    height: 100%;
+}
+
+.FooterLogo {
+    width: 82px;
+}
+
+.FooterSubContainer {
+    max-width: 1281px;
+    margin: 0px auto;
+    height: 100%;
+    padding-top: 57px;
+}
+
+.FooterGroup{
+    max-width: 1120px;
+    margin: 0 auto;
+}
+
+.FooterRahiLogo{
+    max-width: 1120px;
+    margin: 0 auto;
+}
+
+.FooterTitleHeading {
+    color: var(--Background, #FFF);
+    /* font-family: var(--Font1, 'PT Serif', serif); */
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.FooterSubTitle {
+    color: var(--Background, #FFF);
+    /* font-family: var(--Font2, GoodSans, sans-serif); */
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    display: block;
+}
+
+/* Footer End  */
+
+/* pagecontact */
+.heroContactImg {
+  background: url("https://cdn.thecodehelp.in/wkfvfci9gp9rkay9a0se_0ec1b8bb3f.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 50vh;
+}
+.heroAboutImg{
+  background: url("./asset/aboutImage.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 50vh;
+}
+
+.servicePage{
+  background: url("./asset/service\ banner.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 40vh;
+}
+
+.CoursePage{
+  background: url("./asset/Courses.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 40vh;
+}
+
+.our_mission{
+  max-width: 1120px;
+  margin: 16px auto;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.our_mission h1{
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 10px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.mission_desc{
+  font-size: 20px;
+  color: #363333ad;
+  text-align: center;
+}
+.our_vision{
+  margin-top: 80px;
+  margin-bottom: 80px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.service_desc{
+  text-align: start !important;
+}
+.service_desc_p{
+  text-align: start !important;
+}
+/* Team   */
+/* .ourTeamContainer{
+
+} */
+
+
+/* Team end  */
+
+.MuiOutlinedInput-root{
+  letter-spacing: .4em !important;
+}
+
+.getInTouch{
+  margin: 0 auto;
+}
+.formTopContainer{
+  margin: 32px auto;
+}
+
+.formSection{
+  background-color: #fff;
+  margin: 0 auto;
+  padding: 48px 40px;
+  box-shadow: 0px 1px 7px 3px rgba(0, 0, 0, 0.06);
+
+}
+.submitForm{
+  background-color: #000;
+  margin-top: 32px;
+}
+/* pagecontactend */
+
+/* Course Card  */
+.MuiCardMedia-img {
+  height: 180px !important;
+}
+
+.courseContainer{
+  margin: 40px auto;
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  flex-wrap: wrap;
+  gap: 2.5rem;
 }
 
-.App-link {
-  color: #61dafb;
+/* Course card end  */
+
+
+
+@media screen and (min-width: 1024px) and (max-width: 1200px) {
+  .NavBarSubContainer {
+    padding: 0px 1.5rem;
+  }
+
+  .FooterSubContainer {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+  .FooterSubContainer {
+    max-width: 1120px;
+  }
+
+  
+  /* .ConsultationTopBox1024lp {
+    max-width: 100%;
+    padding-left: 24px;
+    padding-right: 24px;
+  } */
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+@media screen and (min-width: 768px) and (max-width: 1023.5px) {
+  .NavBarSubContainer {
+    height: 90px;
+    background: var(--Background, #fff);
+    max-width: 694px;
+    margin: 0 auto;
   }
-  to {
-    transform: rotate(360deg);
+
+  .Navbarlist {
+    font-size: 16px;
+    color: rgb(54 58 69);
   }
+
+  .Navbarlogo {
+    width: 86px;
+    /* height: 34px; */
+  }
+
+  .NavBarContactbtn {
+    display: flex;
+    width: 70px;
+    height: 21px;
+    padding: 5.626px 11.252px;
+    justify-content: center;
+    align-items: center;
+    gap: 5.626px;
+    flex-shrink: 0;
+  }
+
+  .NavbarContactBtnText {
+    text-align: center;
+    font-family: var(--Font2, GoodSans, sans-serif);
+    font-size: 7px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+
+  /* Hero Section  */
+
+
+  .firstLine{
+      font-size: 36px;
+    }
+    .secondLine{
+        font-size: 24px;
+    }
+
+    .heroButtons button{
+        padding: 8px 20px;
+        font-size: 12px;
+        border-radius: 6px;
+    }
+    .rightHero img{
+        width: 400px;
+        height: 400px;
+    }
+    
+
+  /* Hero Section End  */
+
+  /* whyJadava  */
+  .pre_heading{
+    font-size: 1rem;
+    line-height: 1rem;
+  }
+  .section_heading{
+    font-size: 32px;
+  }
+  /* whyJadav End  */
+
+  /* consultation  */
+ 
+.ConsultationHeading {
+  color: #fff;
+  font-family: "Kanit";
+  font-size: 24px;
+  font-weight: 500;
+  width: 45rem;
 }
+
+.ConsultationButton {
+  font-size: 12px;
+  height: 32px;
+  width: 10.6rem;
+}
+
+
+
+  /* consultation end  */
+
+
+  /* footer */
+
+  .FooterSubContainer {
+    max-width: 694px;
+    margin: 0 auto;
+    height: 100%;
+    padding-top: 48px;
+  }
+
+  .FooterLogo {
+    width: 48px;
+    height: 25px;
+  }
+
+  .FooterTitleHeading {
+    color: var(--Background, #fff);
+    font-family: PT Serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+
+  .FooterSubTitle {
+    color: var(--Background, #fff);
+    font-family: var(--Font2);
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    /* line-height: 160%; */
+    /* 16px */
+  }
+  .heroContactImg{
+    height: 40vh;
+  }
+  .our_mission{
+    max-width: 690px;
+  }
+  .our_mission h1{
+    font-size: 28px;
+    font-weight: 700;
+  }
+  
+  .mission_desc{
+    font-size: 18px;
+  }
+  .our_vision{
+    margin-top: 80px;
+    margin-bottom: 80px;
+  }
+ 
+}
+
+@media screen and (max-width: 767.5px) {
+  .NavBarSubContainer {
+    max-width: 100%;
+    padding-left: 1.3rem;
+    padding-right: 1.3rem;
+    height: 76px;
+  }
+
+  .Navbarul {
+    display: none;
+  }
+
+  .Navbarlogo {
+    width: 68px;
+    /* height: 25px; */
+  }
+
+  .NavBarContactbtn {
+    display: flex;
+    width: 95.333px;
+    padding: 5px 6px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 29px;
+    border: 1px solid var(--Main, #0f0c0c);
+  }
+
+  .NavbarContactBtnText {
+    font-family: var(--Font2, GoodSans);
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+
+  .NavBarContactbtn:hover {
+    background: var(--Main, #0f0c0c);
+    color: var(--background, #fff);
+    transition: all 0.3s ease-in-out 0s;
+  }
+  .leftHero{
+    padding-left: 1.3rem;
+    padding-right: 1.3rem;
+  }
+
+  .mobileNavbar {
+    /* width: 360px; */
+    width: 100%;
+    height: 100%;
+    background: #000;
+    backdrop-filter: #000 0.5;
+  }
+
+  .mobileNavbar li {
+    font-family: var(--Font2, sans-serif);
+    color: var(--Background, #fff);
+    font-family: var(--Font2, sans-serif);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 8px 16px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+    text-align: end;
+    /* height: 56px; */
+    padding: 12px 0px;
+    vertical-align: middle;
+    cursor: pointer;
+  }
+
+  .ofmob {
+    padding: 10px 16px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    border-bottom: 1px solid white;
+  }
+
+  /* herpSection  */
+  .heroSection{
+    flex-direction: column-reverse;
+    margin-top: 0;
+  }
+
+  .firstLine{
+    font-size: 32px;
+  }
+  .secondLine{
+      font-size: 18px;
+  }
+
+  .heroButtons button{
+      padding: 8px 20px;
+      font-size: 12px;
+      border-radius: 6px;
+  }
+  .rightHero img{
+      width: auto;
+      height: auto;
+  }
+
+  /* heroSection End  */
+
+   /* whyJadava  */
+   .pre_heading{
+    font-size: 1rem;
+    line-height: 1rem;
+    margin-bottom: 8px;
+  }
+  .section_heading{
+    font-size: 24px;
+  }
+  /* whyJadav End  */
+
+  /* consultation  */
+  .ConsultationHeading {
+    color: #fff;
+    font-family: "Kanit";
+    font-size: 20px;
+    font-weight: 500;
+    width: max-content;
+    margin-bottom: 20px;
+  }
+  .ConsultationButton{
+    font-size: 14px;
+    height: 32px;
+    width: 10.6rem;
+  }
+  
+  
+
+  /* consultation end  */
+
+  /* Footer */
+  .FooterSubContainer {
+    max-width: 100%;
+    padding-left: 1.3rem;
+    padding-right: 1.3rem;
+    padding-top: 32.75px;
+  }
+
+  .FooterLogo {
+    width: 62px;
+  }
+
+  .FooterGroup {
+    display: none;
+  }
+
+  .FooterTitleHeading {
+    color: var(--Background, #fff);
+    font-family: var(--Font1);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+
+  .FooterSubTitle {
+    color: var(--Background, #fff);
+    font-family: var(--Font2);
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 180%;
+  }
+
+  .heroContactImg{
+    height: 25vh;
+  }
+  .getInTouch{
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  /* aboutUs  */
+  .heroAboutImg{
+    height: 25vh  ;
+  }
+  .servicePage{
+    height: 25vh;
+  }
+
+  .our_mission{
+    max-width: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .our_mission h1{
+    font-size: 24px;
+    font-weight: 700;
+  }
+  
+  .mission_desc{
+    font-size: 16px;
+    text-align: justify;
+  }
+  .our_vision{
+    margin-top: 80px;
+    margin-bottom: 80px;
+  }
+  /* aboutUs End  */
+
+  .PackagesTopContainer {
+    padding-left: 16px;
+  }
+  .AllPackagebox1024lp {
+    overflow-x: scroll !important;
+  }
+  
+
+}
+
