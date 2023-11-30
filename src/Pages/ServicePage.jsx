@@ -34,7 +34,7 @@ function ServicePage() {
             global job markets. With a unique 6-month job assurance program,
             individuals pay a one-time fee for training and receive ongoing
             support in securing new employment opportunities post-training.
-            There will be 3 rounds of interest in our company for your practice and to next process.
+            There will be 3 rounds of interview in our company for your practice and to next process.
           </p>
         </div>
 
