@@ -28,7 +28,7 @@ const AboutUs = () => {
         />
         <div class="flex flex-col items-center justify-center gap-4 px-4 py-10 md:items-start ">
           <p class="section_heading text-headText text-start">
-            Top Training and Job Placement and Employment Agencies in
+            Top Training with Job Placement and Employment Agencies in
             Karnataka, India
           </p>
           <p class="section_subheading text-center md:text-start text-subText ">

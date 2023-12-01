@@ -10,7 +10,7 @@ const HeroSection = () => {
       <section className="heroSection relative w-full md:h-[400px] h-[400px]">
         <div className="leftHero  lg:w-[1120px] md:w-[690px] w-full">
           <h1 className="firstLine text-start">
-            Top Training and Job Placement and <br /> Employment Agencies in
+            Top Training with Job Placement and <br /> Employment Agencies in
             Karnataka, India
           </h1>
           <h1 className="secondLine text-start">The Ultimate Guide To Ace Interviews</h1>

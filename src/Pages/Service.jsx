@@ -11,7 +11,7 @@ export default function Service() {
           class="-pt-1 mx-auto h-[70vw] w-[70vw] place-self-center rounded-full object-cover object-top md:h-[400px] sm:w-full sm:rounded-3xl md:w-[660px] lg:h-[344px]"
         />
         <div class="flex flex-col items-center justify-center gap-4 px-4 py-10 md:items-start ">
-          <p class="section_heading text-headText text-center md:text-start">Top Training and Job Placement and Employment Agencies in Karnataka, India</p>
+          <p class="section_heading text-headText text-center md:text-start">Top Training with Job Placement and Employment Agencies in Karnataka, India</p>
           {/* <p class="section_subheading text-center md:text-start text-subText ">
             Hello! Welcome to <span class="font-medium">Jadav Foundation</span>! Really
             happy to see you here.
