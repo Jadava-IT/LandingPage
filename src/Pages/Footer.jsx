@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 const SocialMediadata = [
   {
-    SocialMediaLink: "https://www.instagram.com",
+    SocialMediaLink: "https://www.instagram.com/jadav_foundation/",
     SocialMediaSvg: (
       <svg
         xmlns="http://www.w3.org/2000/svg"
@@ -27,7 +27,7 @@ const SocialMediadata = [
     ),
   },
   {
-    SocialMediaLink: "https://www.linkedin.com",
+    SocialMediaLink: "https://www.linkedin.com/in/jadav-foundation",
     SocialMediaSvg: (
       <svg
         xmlns="http://www.w3.org/2000/svg"
@@ -137,43 +137,52 @@ const Footer = () => {
           </div>
 
           <div className="md:flex md:flex-col lg:mt-[48px] md:mt-[33px]  ">
-            <h2 className="FooterTitleHeading">Menu</h2>
-            <a
+            {/* <h2 className="FooterTitleHeading">Menu</h2> */}
+            <Link
               className="md:flex md:flex-col md:gap-1  cursor-pointer hover:text-yellow-500 lg:mt-[12px] md:mt-[8px]"
-              target="_blank"
-              href="/about"
+              // target="_blank"
+              to="/"
+            >
+              <p className="FooterSubTitle lg:w-[306px] md:w-[241px]  ">
+                Home
+              </p>{" "}
+            </Link>
+            <Link
+              className="md:flex md:flex-col md:gap-1  cursor-pointer hover:text-yellow-500 lg:mt-[12px] md:mt-[8px]"
+              // target="_blank"
+              to="/about"
             >
               <p className="FooterSubTitle lg:w-[306px] md:w-[241px]  ">
                 About Us
               </p>{" "}
-            </a>
-            <a
+            </Link>
+            <Link
               className="md:flex md:flex-col md:gap-1  cursor-pointer hover:text-yellow-500 lg:mt-[12px] md:mt-[8px]"
-              target="_blank"
-              href="/contact"
+              // target="_blank"
+              to="/contact"
             >
               <p className="FooterSubTitle lg:w-[306px] md:w-[241px]  ">
                 Contact Us
               </p>{" "}
-            </a>
-            <a
+            </Link>
+            <Link
               className="md:flex md:flex-col md:gap-1  cursor-pointer hover:text-yellow-500 lg:mt-[12px] md:mt-[8px]"
-              target="_blank"
-              href="/course"
+              // target="_blank"
+              to="/course"
             >
               <p className="FooterSubTitle lg:w-[306px] md:w-[241px] ">
                 Courses
               </p>{" "}
-            </a>
-            <a
+            </Link>
+            <Link
               className="md:flex md:flex-col md:gap-1  cursor-pointer hover:text-yellow-500 lg:mt-[12px] md:mt-[8px]"
-              target="_blank"
-              href="/service"
+              // target="_blank"
+              to="/service"
             >
               <p className="FooterSubTitle lg:w-[306px] md:w-[241px] ">
                 Services
               </p>{" "}
-            </a>
+            </Link>
           </div>
           <div className="md:flex md:flex-col lg:mt-[48px] md:mt-[33px]">
             <h2 className="FooterTitleHeading">Connect With Us</h2>
@@ -269,14 +278,15 @@ const Footer = () => {
             </div>
           </div>
           <div>
-            <h2 className="FooterTitleHeading">Menu</h2>
-            <a className="flex gap-[4px] pt-[10px]" target="_blank" href="/">
-              {/* location icon */}
-            
+           
+
+            <Link to="/" className="FooterSubTitle max-w-[132px] ">
+                Home
+              </Link>
+
               <Link to="/about" className="FooterSubTitle max-w-[132px] ">
                 About Us
               </Link>
-            </a>
      
               {/* location icon */}
             
