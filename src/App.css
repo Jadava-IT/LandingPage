@@ -60,14 +60,14 @@
 
 /* Hero Section  */
 .heroSection{
-  background: url("https://persismonalisagroup.com/wp-content/uploads/2023/06/slider-bg-4.jpg");
+  background: url("./asset/hero1.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
 }
 
 .heroSection2{
-  background: url("https://persismonalisagroup.com/wp-content/uploads/2023/06/slider-bg-5.jpg");
+  background: url("./asset/hero2.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -313,10 +313,7 @@
 .service_desc_p{
   text-align: start !important;
 }
-/* Team   */
-/* .ourTeamContainer{
 
-} */
 
 
 /* Team end  */
